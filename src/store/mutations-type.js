@@ -1,0 +1,13 @@
+// 在getters调用mutations中的方法时,方法名为字符串,字符串的特点是写错但不会报错, 为了方便维护, 可以将方法名定义为一个常量
+export const SET_FULL_SCREEN = 'SET_FULL_SCREEN'
+export const SET_MINI_PLAYER = 'SET_MINI_PLAYER'
+export const SET_IS_PLAYING = 'SET_IS_PLAYING'
+export const SET_MODE_TYPE = 'SET_MODE_TYPE'
+export const SET_LIST_PLAYER = 'SET_LIST_PLAYER'
+export const SET_SONG_DETAIL = 'SET_SONG_DETAIL'
+export const SET_SONG_LYRIC = 'SET_SONG_LYRIC'
+export const SET_DEL_SONG = 'SET_DEL_SONG'
+export const SET_CURRENT_INDEX = 'SET_CURRENT_INDEX'
+export const SET_CURRENT_TIME = 'SET_CURRENT_TIME'
+export const SET_FAVORITE_SONG = 'SET_FAVORITE_SONG'
+export const SET_FAVORITE_LIST = 'SET_FAVORITE_LIST'
